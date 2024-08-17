@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Custom Modifications</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/pngimg.com - porsche_logo_PNG7.png" alt="Porsche Logo">
+            </div>
+            <button id="back-button" onclick="location.href='index.html'">Back</button>
+        </nav>
+    </header>
+   
+    <section id="service">
+        <h1>Modify your Porsche</h1>
+        <div class="custom-modifications-container">
+            <div class="car-display">
+                <img src="colorwheel/red-car.jpg" id="car-image" alt="Car Image"> <!-- Set a default image -->
+            </div>
+            <div class="color-palette">
+                <h2>Select Car Color</h2>
+                <button class="color-btn" style="background-color: #ff0000;" onclick="changeCarColor('red')"> Red</button>
+                <button class="color-btn" style="background-color: #000000;" onclick="changeCarColor('black')">Black</button>
+                <button class="color-btn" style="background-color: #ffffff;" onclick="changeCarColor('white')">White</button>
+                <button class="color-btn" style="background-color: #0000ff;" onclick="changeCarColor('blue')">Genetian Blue</button>
+                <button class="color-btn" style="background-color: #9f9f9f;" onclick="changeCarColor('gray')">Vandium Gray</button>
+                <button class="color-btn" style="background-color: #4afbba;" onclick="changeCarColor('mintgreen')">Mint Green</button>
+            </div>
+        </div>
+    </section>
+    <section id="wheels">
+        <h1>Choose Your Wheels</h1>
+        <div class="wheels-container">
+            <div class="car-display">
+                <img src="colorwheel/whlA.webp" id="car-with-wheels" alt="Car with Wheels"> <!-- Set a default image -->
+            </div>
+            <div class="wheels-gallery">
+                <h2>Select Wheel Design</h2>
+                <img src="colorwheel/whl1.jpg" class="wheel-btn" onclick="changeCarWheels('wheel1')">
+                <img src="colorwheel/whl2.jpg" class="wheel-btn" onclick="changeCarWheels('wheel2')">
+                <img src="colorwheel/whl3.jpg" class="wheel-btn" onclick="changeCarWheels('wheel3')">
+                <img src="colorwheel/whl4.jpg" class="wheel-btn" onclick="changeCarWheels('wheel4')">
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script> <!-- Ensure the JS file is included -->
+</body>
+</html>

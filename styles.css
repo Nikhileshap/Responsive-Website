@@ -1,0 +1,938 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&family=Patua+One&family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "BioRhyme", serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+   
+}
+.logo img{
+    width: 40px;
+    height: auto;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #000000;
+    color: white;
+}
+
+
+#porsche {
+    position: relative;
+    height: 600px;
+    display: grid;
+    justify-items: center;
+    background-color: #000000;
+}
+
+
+.logo h1 {
+    width: 200px;
+    height: 30px;
+    margin-left: 80px;
+    color: rgb(255, 255, 255);
+    font-family: "BioRhyme", serif;
+}
+
+#menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    display: none; 
+}
+#menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 80px;
+}
+
+.nav-links {
+    list-style: none;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    position: static; /* Static for desktop */
+    background: none; /* No background for desktop */
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 1rem; /* Space out menu items */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px; /* Adjust font size for desktop */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#porsche{
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+    background-color: #000000;
+}
+#porsche h1{
+    font-size: 200px;
+    margin-top: -2px;
+    background: linear-gradient(to bottom, #5f5f5f, #ffffff);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 5px;
+}
+#porsche img{
+    margin-top: -300px;
+   
+}
+#mobile{
+    display: none;
+}
+hr{
+    width: 100%;
+    color: white;
+}
+
+
+#mode{
+    height: 700px;
+    background-color: rgb(0, 0, 0);
+  
+
+}
+#gif{
+    display: none;
+}
+#mode h1{
+    margin-top: 0px;
+    color: white;
+    margin-left: 40%;
+    font-size: 100px;
+}
+#mode{
+    background-image: url(Chevrons-moving-down-[remix].gif);
+}
+
+#models h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.models-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.model-item {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.model-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.model-info {
+    padding: 15px;
+}
+
+.model-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.model-info p {
+    font-size: 16px;
+    color: #555;
+}
+
+.model-item:hover {
+    transform: translateY(-30px);
+    text-decoration: none; /* Ensure no underline on hover */
+}
+.models-container a {
+    text-decoration: none; /* Remove the default underline on links */
+    color: inherit; /* Inherit the color from the parent element */
+}
+
+#service {
+    margin-top: 30px;
+    padding: 60px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#service h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #f0f0f0;
+    text-transform: uppercase;
+}
+
+#service hr {
+    width: 80px;
+    height: 4px;
+    background-color: #f0f0f0;
+    border: none;
+    margin: 20px auto;
+}
+
+#service #box {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin: 30px 0;
+    backdrop-filter: blur(10px);
+    transition: background-color 0.4s ease, transform 0.4s ease;
+}
+
+#service #box:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-10px);
+}
+
+#service a {
+    text-decoration: none;
+    color: #ffeb3b;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+#service a:hover {
+    color: #ff9800;
+}
+
+#service video {
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    margin-bottom: 30px;
+}
+
+
+
+
+#service {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+#service h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#service hr {
+    width: 100px;
+    height: 3px;
+    background-color: #ff0000;
+    border: none;
+    margin: 20px auto;
+}
+
+#service #box {
+    display: inline-block;
+    padding: 15px 30px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+#service #box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
+}
+
+#service a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+#service img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+#test {
+    padding: 60px 20px;
+    background-color: #000000;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+    margin: 0 auto;
+    text-align: left;
+}
+
+#test h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+    margin-left: 50px;
+}
+
+
+.test-drive-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#test-drive-form {
+    flex: 1;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #fcfcfc;
+}
+
+.form-group input, .form-group select {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.videos-container {
+    margin-right: 10px;
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+}
+
+.videos-container video {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}.video-hover {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.video-hover:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+.videos-container #lol{
+    width: 500px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#back-button {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #ff0000; /* Red background */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 80px;
+    transition: background-color 0.3s ease;
+}
+
+#back-button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+/* Custom Modifications Section */
+/* Custom Modifications Section */
+#service {
+    padding: 50px 20px;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+}
+#service h1{
+    text-align: start;
+    margin-left: 180px;
+    margin-top: 0px;   
+    font-size: bolder;
+    padding-bottom: 80px;
+   
+}
+
+.custom-modifications-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: -100px;
+}
+
+.color-palette {
+    margin-top: -80px;
+    width: 20%;
+    height: 500px;
+    margin-right: 60px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.color-palette h2 {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.color-btn {
+    width: 150px; /* Adjust size */
+    height: 50px; /* Adjust size */
+    border: none;
+    border-radius: 10px;
+    color: wheat;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+    border: 1px solid black;
+    transition: transform 0.3s ease;
+}
+
+.color-btn:hover {
+    transform: scale(1.1);
+}
+
+.car-display {
+    width: 70%;
+    text-align: center;
+}
+
+#car-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth fade and scale transitions */
+}
+
+/* Zoom Effect on Hover */
+#car-image:hover {
+    transform: scale(1.1); /* Zoom in by 10% */
+}
+
+
+/* Wheels Section */
+#wheels {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.wheels-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.car-display {
+    width: 100%;
+    text-align: center;
+   
+}
+
+#car-with-wheels{
+    width: 100%;
+    height: auto;
+}
+
+
+.wheels-gallery {
+    margin-top: -160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.wheels-gallery img {
+
+    width: 80px;
+    height: 80px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.wheels-gallery img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+#about-us {
+    padding: 50px 20px;
+    height: 500px;
+    margin-bottom: 30px;
+    background-image: url('images/cars.png'); /* Add your background image here */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    color: #ffffff;
+    text-align: center;
+    position: relative; /* Ensure text positioning is relative to the section */
+    z-index: 1; /* Make sure the text is above other content */
+}
+
+#about-us::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    z-index: -1; /* Place the overlay behind the text */
+}
+
+#about-us h1 {
+    margin-left: -60px;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-family: "BioRhyme", serif;
+}
+
+#about-us p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 1200px;
+    margin: 30px auto;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+footer{
+    height: 80px;
+    background-color: #555;
+    margin-top: -30px;
+}
+h4{
+    color: white;
+    text-align: center;
+}
+
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #000000; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1462f3; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1600bc; /* Color of the scrollbar thumb on hover */
+}
+
+
+
+/* Mobile CSS */
+@media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+   
+    #menu-icon {
+        display: block;
+        margin-right: 20px;
+        font-size: 28px;
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #000000;
+    }
+
+    .logo h1 {
+        font-size: 18px;
+        margin-left: -1px;
+        color: #ffffff;
+    }
+
+    /* Porsche Section */
+    #first-img {
+        display: none;
+    }
+
+    #mobile {
+        display: flex;
+        width: 380px;
+        height: auto;
+        padding-top: 60px;
+        margin-left: -20px;
+    
+    }
+   
+    #porsche{
+        height: 500px;
+        width: 94.5%;
+    }
+    #porsche h1 {
+        font-size: 36px;
+        margin-top: 15px;
+        letter-spacing: 2px;
+        text-align: center;
+        color: #6b6b6b;
+    }
+
+  
+    hr{ display: none;}
+
+    /* Navigation Links */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 40%;
+        background-color: #3c3c3c;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        margin-left: 150px;
+        padding: 1rem;
+        z-index: 1;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+        color: #ccc;
+    }
+
+    /* Model Section */
+    #mode{
+        margin-top: -30px;
+        background-color: black;
+        background-image: none;
+        width: 380px;
+    }
+    #mode h1 {
+        font-size: 32px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .models-container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        gap: 20px;
+        padding: 0 15px;
+    }
+
+    .model-item {
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+    .models-container {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .model-info h3 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    .model-info p {
+        font-size: 16px;
+        color: #555;
+    }
+
+    .model-item img {
+        width: 90%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    /* Footer */
+    footer h4 {
+        font-size: 14px;
+        color: #333;
+        padding: 20px;
+        text-align: center;
+        line-height: 1.5;
+        background-color: #f1f1f1;
+    }
+    .videos-container{
+        display: none;
+    }
+}
+/* Mobile CSS */
+@media only screen and (max-width: 768px) {
+ 
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    #service h1{
+        font-size: 20px;
+        margin-left: -2px;
+    }
+    #back-button {
+        width: 100px;
+        height: 50px;
+        margin-left: 130px;
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+
+    .logo img {
+        width: 60px; /* Adjust logo size */
+        height: auto;
+    }
+
+    /* Custom Modifications Section */
+    .custom-modifications-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+
+    .color-palette {
+        width: 300px;
+        height: auto;
+        margin-top: 20px;
+        margin-right: 0px;
+        padding: 10px;
+    }
+    .color-palette h2{
+        font-size: 30px;
+    }
+    .color-btn {
+        width: 90px;
+        height: 40px;
+        font-size: 16px;
+        margin: 5px;
+    }
+
+    .car-display {
+        margin-top: -30px;
+        width: 350px;
+        margin-bottom: 0px;
+    }
+
+   
+
+    /* Wheels Section */
+    #wheels {
+        padding: 30px 10px;
+    }
+
+    .wheels-container {
+        flex-direction: column;
+    }
+
+    .wheels-gallery {
+        flex-direction: column;
+        width: 90%;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .wheels-gallery h2{
+      
+    }
+    .wheels-gallery img {
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+    }
+
+    #car-with-wheels {
+        max-width: 90%;
+    }
+}
+
+/* Mobile CSS */
+@media only screen and (max-width: 768px) {
+    /* About Us Section */
+    #about-us {
+        padding: 30px 10px;
+        height: auto; /* Adjust height for smaller screens */
+        margin-bottom: 20px;
+    }
+
+    #about-us h1 {
+        font-size: 28px; /* Reduce the font size for smaller screens */
+        margin-left: 0; /* Center the heading */
+    }
+
+    #about-us p {
+        font-size: 16px; /* Reduce the font size for smaller screens */
+        line-height: 1.5;
+        margin: 20px auto;
+        padding: 0 10px; /* Add some padding for better readability */
+    }
+
+    /* Footer */
+    footer {
+        height: auto; /* Allow footer height to adjust based on content */
+        padding: 20px 10px;
+    }
+
+    footer h4 {
+        font-size: 14px; /* Reduce the font size */
+        line-height: 1.4;
+        padding: 0 10px; /* Add padding for better readability */
+        text-align: center;
+    }
+}
+

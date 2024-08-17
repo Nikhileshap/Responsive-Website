@@ -266,6 +266,10 @@ hr{
 
 
 #service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 50px 20px;
     text-align: center;
     background-color: #000;
@@ -273,7 +277,11 @@ hr{
     position: relative;
     overflow: hidden;
 }
-
+#service img{
+    width: 1000px;
+    height: 150px;
+  
+}
 #service h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -396,8 +404,8 @@ button[type="submit"]:hover {
     gap: 80px;
 }
 
-.videos-container video {
-    width: 500px;
+.videos-container script {
+    width: 600px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
@@ -465,6 +473,7 @@ button[type="submit"]:hover {
     padding-bottom: 80px;
    
 }
+
 
 .custom-modifications-container {
     display: flex;
